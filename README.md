@@ -5,8 +5,8 @@ Welcome to my personal portfolio website, built with [Next.js](https://nextjs.or
 ## 🚀 Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org/)
-- **Styling:** Tailwind CSS / CSS Modules / Styled Components *(choose based on your stack)*
-- **Deployment:** Vercel / Netlify / GitHub Pages *(choose one)*
+- **Styling:** Tailwind CSS / CSS Modules / Styled Components _(choose based on your stack)_
+- **Deployment:** Vercel / Netlify / GitHub Pages _(choose one)_
 - **Other Tools:** React, TypeScript, Framer Motion, etc.
 
 ## ✨ Features
@@ -19,29 +19,31 @@ Welcome to my personal portfolio website, built with [Next.js](https://nextjs.or
 
 ## 📂 Folder Structure
 
-├── components/ # Reusable UI components  
+├── components/ # Reusable UI components
 
-├── pages/ # App pages (Next.js routing)  
+├── pages/ # App pages (Next.js routing)
 
-├── public/ # Static assets  
+├── public/ # Static assets
 
-├── styles/ # Global styles or CSS modules  
+├── styles/ # Global styles or CSS modules
 
-├── utils/ # Helper functions  
-
-
+├── utils/ # Helper functions
 
 ## 📦 Getting Started
 
 1. **Clone the repository:**
 
 git clone [https://github.com/Arteque/portfolionext.git](https://github.com/Arteque/portfolionext.git)
+
 ```bash
 https://github.com/Arteque/portfolionext.git
 ```
+
 cd your-portfolio
 npm install
+
 # or
+
 yarn install
 
 http://localhost:3000
@@ -56,5 +58,3 @@ This project is licensed under the MIT License.
 Feel free to connect with me
 
 by Ahmed Lemssiah
-
-
