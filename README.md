@@ -53,14 +53,8 @@ This portfolio is easily deployable on platforms like Vercel. Just connect your 
 This project is licensed under the MIT License.
 
 🙋‍♂️ Contact
-Feel free to connect with me:
+Feel free to connect with me
 
-LinkedIn
-
-Twitter
-
-Email
-
-Made with ❤️ by Ahmed Lemssiah
+by Ahmed Lemssiah
 
 
