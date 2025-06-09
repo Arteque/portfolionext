@@ -19,11 +19,16 @@ Welcome to my personal portfolio website, built with [Next.js](https://nextjs.or
 
 ## 📂 Folder Structure
 
-├── components/ # Reusable UI components /
-├── pages/ # App pages (Next.js routing) /
-├── public/ # Static assets /
-├── styles/ # Global styles or CSS modules /
-├── utils/ # Helper functions /
+├── components/ # Reusable UI components  
+
+├── pages/ # App pages (Next.js routing)  
+
+├── public/ # Static assets  
+
+├── styles/ # Global styles or CSS modules  
+
+├── utils/ # Helper functions  
+
 
 
 ## 📦 Getting Started
