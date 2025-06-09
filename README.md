@@ -35,10 +35,11 @@ Welcome to my personal portfolio website, built with [Next.js](https://nextjs.or
 
 1. **Clone the repository:**
 
-```bash
 git clone [https://github.com/Arteque/portfolionext.git](https://github.com/Arteque/portfolionext.git)
-cd your-portfolio
+```bash
+https://github.com/Arteque/portfolionext.git
 ```
+cd your-portfolio
 npm install
 # or
 yarn install
