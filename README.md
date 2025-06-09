@@ -21,7 +21,7 @@ Welcome to my personal portfolio website, built with [Next.js](https://nextjs.or
 
 ├── components/ # Reusable UI components
 
-├── pages/ # App pages (Next.js routing)
+├── app/ # App pages (Next.js routing)
 
 ├── public/ # Static assets
 
