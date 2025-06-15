@@ -1,0 +1,272 @@
+{
+  "head": {
+    "title": "Ahmed Lemssiah | Web Development & Web Design",
+    "meta": {
+      "description": "Hey! I'm Ahmed Lemssiah, a certified web developer and web designer ✅ by the German IHK (Industrie- und Handelskammer). In this portfolio, you'll find my projects, my tech stack, and more about me in frontend web development field.",
+      "keywords": "Web Development, Web Design, Frontend, Frontend Development, HTML, CSS, JavaScript, React, Vite, Responsive Design, UI Design, UX Design, TypeScript, Tailwind CSS, Next.js, Web Performance, Mobile First Design, Cross Browser Compatibility, SEO Basics, Git, GitHub, API Integration, Figma to Code,  Adobe XD, Photoshop, Illustrator, Lightroom, InDesign",
+      "ogtitle": "Ahmed Lemssiah | ✅Web Development & ✅Web Design",
+      "ogdescription": "I am Ahmed Lemssiah, a certified web developer and web designer. Discover my projects in the modern web development field. Let's work together!"
+    }
+  },
+  "header": {
+    "nav": {
+      "links": {
+        "hero": {
+          "text": "Start",
+          "title": "Start"
+        },
+        "skills": {
+          "text": "Skills",
+          "title": "Skills"
+        },
+        "projects": {
+          "text": "Projects",
+          "title": "My projects"
+        },
+        "services": {
+          "text": "Services",
+          "title": "My services"
+        },
+        "about": {
+          "text": "About me",
+          "title": "About me"
+        },
+        "contact": {
+          "text": "Contact",
+          "title": "Contact form"
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": {
+      "top": "My name is",
+      "text": "/md/en/heroText.md"
+    },
+    "calls": {
+      "1": "About me",
+      "2": "Portfolio"
+    }
+  },
+  "portfolio": {
+    "title": "My Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "/md/en/about.md"
+  },
+  "techstack": {
+    "title": "Technology Stack",
+    "tools": {
+      "1": {
+        "title": "Design",
+        "stacks": {
+          "adobexd": {
+            "name": "Adobe Xd",
+            "text": ""
+          },
+          "figma": {
+            "name": "Figma",
+            "text": ""
+          },
+          "photoshop": {
+            "name": "Photoshop",
+            "text": ""
+          },
+          "illustrator": {
+            "name": "Illustrator",
+            "text": ""
+          },
+          "lightroom": {
+            "name": "Lightroom",
+            "text": ""
+          },
+          "indesign": {
+            "name": "InDesign",
+            "text": ""
+          }
+        }
+      },
+      "2": {
+        "title": "Development",
+        "stacks": {
+          "html5": {
+            "name": "HTML5",
+            "text": ""
+          },
+          "css3": {
+            "name": "Css3",
+            "text": ""
+          },
+          "javascript": {
+            "name": "Javascript",
+            "text": ""
+          },
+          "react": {
+            "name": "React",
+            "text": "Component-based user interfaces, optimized for scalability and UX."
+          },
+          "typo3": {
+            "name": "Typo3",
+            "text": "Templates developed independently and flexibly adapted to the ecosystem."
+          },
+          "wordpress": {
+            "name": "WordPress",
+            "text": "Custom templates created and integrated efficiently into WordPress."
+          },
+          "github": {
+            "name": "GitHub",
+            "text": ""
+          },
+          "tailwindcss": {
+            "name": "Tailwind Css",
+            "text": ""
+          },
+          "bootstrap": {
+            "name": "Bootstrap",
+            "text": ""
+          }
+        }
+      },
+      "3": {
+        "title": "Communication",
+        "stacks": {
+          "deutsch": {
+            "name": "German",
+            "text": "spoken and written"
+          },
+          "franzoesisch": {
+            "name": "French",
+            "text": "spoken and written"
+          },
+          "englisch": {
+            "name": "English",
+            "text": "spoken and written"
+          },
+          "arabisch": {
+            "name": "Arabic",
+            "text": "spoken and written"
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "title": "My services",
+    "1": {
+      "title": {
+        "1": "Ideas",
+        "2": "Searcher"
+      },
+      "text": "/md/en/service_idee.md"
+    },
+    "2": {
+      "title": {
+        "1": "Pixel",
+        "2": "Artist"
+      },
+      "text": "/md/en/service_artist.md"
+    },
+    "3": {
+      "title": {
+        "1": "DOM",
+        "2": "Tamer"
+      },
+      "text": "/md/en/service_dompteur.md"
+    }
+  },
+  "contact": {
+    "title": "Convinced? Let's talk!",
+    "form": {
+      "title": "Contact Form",
+      "legends": {
+        "1": "Personal informations",
+        "2": "Contact informations",
+        "3": "Message"
+      },
+      "inputs": {
+        "anrede": {
+          "title": "Salutation",
+          "options": {
+            "1": "Ms",
+            "2": "Mr"
+          }
+        },
+        "vorname": {
+          "title": "First Name",
+          "options": {
+            "1": "First Name"
+          }
+        },
+        "nachname": {
+          "title": "Last Name",
+          "options": {
+            "1": "Last Name"
+          }
+        },
+        "email": {
+          "title": "Email",
+          "options": {
+            "1": "Email"
+          }
+        },
+        "tel": {
+          "title": "Phone",
+          "options": {
+            "1": "Phone"
+          }
+        },
+        "betreff": {
+          "title": "Subject",
+          "options": {
+            "1": "Subject"
+          }
+        },
+        "nachricht": {
+          "title": "Message",
+          "options": {
+            "1": "Message"
+          }
+        },
+        "datenschutz": {
+          "title": "Privacy Policy",
+          "options": {
+            "1": "Privacy Policy",
+            "text": "/md/en/datenschutz.md"
+          }
+        },
+        "senden": {
+          "title": "Send Message",
+          "options": {
+            "1": "Send Message"
+          }
+        }
+      }
+    }
+  },
+  "videos": {
+    "title": "Scrolled this far? Here's a little extra for you:",
+    "cookies": {
+      "1": "Oops! 😬 No YouTube videos here! – something went wrong! 📉🎥",
+      "2": "External contents are disabled in your cookie settings"
+    }
+  },
+  "cookieBanner": {
+    "text": "/md/en/cookieBanner.md",
+    "buttons": {
+      "annehmen": "Accept",
+      "verweigern": "Reject"
+    }
+  },
+  "tostify": {
+    "projects": "The project list has been updated!",
+    "colormode": {
+      "light": "The Light Mode is now active!",
+      "dark": "The Dark Mode is now active!"
+    },
+    "contact": {
+      "success": "Your message has been sent. Thank you!",
+      "error": "Error while sending the message."
+    }
+  }
+}
