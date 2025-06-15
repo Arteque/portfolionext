@@ -36,6 +36,20 @@
           "title": "Kontaktformular"
         }
       }
+    },
+    "languages": {
+      "fr": {
+        "title": "Französisch",
+        "key": "fr"
+      },
+      "en": {
+        "title": "Englisch",
+        "key": "en"
+      },
+      "de": {
+        "title": "Deutsch",
+        "key": "de"
+      }
     }
   },
   "hero": {

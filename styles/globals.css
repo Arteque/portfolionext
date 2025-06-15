@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
+*,
+*::before,
+*::after´ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --clr-bg-100: hsl(216, 72%, 17%);
+  --clr-bg-200: hsl(216, 72%, 27%);
+  --clr-call-100: hsl(126, 56%, 53%);
+  --clr-call-200: hsl(126, 56%, 43%);
+  --clr-ntr-100: hsl(260, 4%, 15%);
+  --clr-ntr-200: hsl(260, 4%, 25%);
+  --clr-txt-100: hsl(0, 0%, 76%);
+  --clr-txt-200: hsl(0, 0%, 86%);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background-100: var(--clr-bg-100);
+  --color-background-200: var(--clr-bg-200);
+  --color-call-100: var(--clr-call-100);
+  --color-call-200: var(--clr-call-200);
+  --color-ntr-100: var(--clr-ntr-100);
+  --color-ntr-200: var(--clr-ntr-200);
+  --color-text-100: var(--clr-txt-100);
+  --color-text-100: var(--clr-txt-100);
+  --color-text-200: var(--clr-txt-200);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --clr-txt-100: hsl(216, 72%, 17%);
+    --clr-txt-200: hsl(216, 72%, 27%);
+    --clr-call-100: hsl(83, 87%, 50%);
+    --clr-call-200: hsl(83, 87%, 60%);
+    --clr-ntr-100: hsl(260, 4%, 15%);
+    --clr-ntr-200: hsl(260, 4%, 25%);
+    --clr-bg-100: hsl(0, 0%, 86%);
+    --clr-bg-200: hsl(0, 0%, 96%);
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background-100);
+  color: var(--color-text-100);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  @apply mx-auto px-6 md:px-4 lg:px-0;
 }

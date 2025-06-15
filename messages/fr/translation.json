@@ -36,6 +36,20 @@
           "title": "Formulaire de contact"
         }
       }
+    },
+    "languages": {
+      "fr": {
+        "title": "Français",
+        "key": "fr"
+      },
+      "en": {
+        "title": "Anglais",
+        "key": "en"
+      },
+      "de": {
+        "title": "Allemand",
+        "key": "de"
+      }
     }
   },
   "hero": {

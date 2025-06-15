@@ -36,6 +36,20 @@
           "title": "Contact form"
         }
       }
+    },
+    "languages": {
+      "fr": {
+        "title": "French",
+        "key": "fr"
+      },
+      "en": {
+        "title": "English",
+        "key": "en"
+      },
+      "de": {
+        "title": "German",
+        "key": "de"
+      }
     }
   },
   "hero": {
