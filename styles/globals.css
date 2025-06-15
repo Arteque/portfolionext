@@ -9,14 +9,14 @@
 }
 
 :root {
-  --clr-bg-100: hsl(216, 72%, 17%);
-  --clr-bg-200: hsl(216, 72%, 27%);
-  --clr-call-100: hsl(126, 56%, 53%);
-  --clr-call-200: hsl(126, 56%, 43%);
+  --clr-txt-100: hsl(216, 72%, 17%);
+  --clr-txt-200: hsl(216, 72%, 27%);
+  --clr-call-100: hsl(83, 87%, 50%);
+  --clr-call-200: hsl(83, 87%, 60%);
   --clr-ntr-100: hsl(260, 4%, 15%);
   --clr-ntr-200: hsl(260, 4%, 25%);
-  --clr-txt-100: hsl(0, 0%, 76%);
-  --clr-txt-200: hsl(0, 0%, 86%);
+  --clr-bg-100: hsl(0, 0%, 86%);
+  --clr-bg-200: hsl(0, 0%, 96%);
 }
 
 @theme inline {
@@ -35,14 +35,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --clr-txt-100: hsl(216, 72%, 17%);
-    --clr-txt-200: hsl(216, 72%, 27%);
-    --clr-call-100: hsl(83, 87%, 50%);
-    --clr-call-200: hsl(83, 87%, 60%);
+    --clr-bg-100: hsl(216, 72%, 17%);
+    --clr-bg-200: hsl(216, 72%, 27%);
+    --clr-call-100: hsl(126, 56%, 53%);
+    --clr-call-200: hsl(126, 56%, 43%);
     --clr-ntr-100: hsl(260, 4%, 15%);
     --clr-ntr-200: hsl(260, 4%, 25%);
-    --clr-bg-100: hsl(0, 0%, 86%);
-    --clr-bg-200: hsl(0, 0%, 96%);
+    --clr-txt-100: hsl(0, 0%, 76%);
+    --clr-txt-200: hsl(0, 0%, 86%);
   }
 }
 
@@ -58,4 +58,8 @@ ul {
 
 .container {
   @apply mx-auto px-6 md:px-4 lg:px-0;
+}
+
+body[data-navopen="true"] {
+  overflow-x: hidden;
 }

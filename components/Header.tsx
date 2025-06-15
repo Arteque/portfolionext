@@ -1,14 +1,9 @@
-import Logo from "./Logo/Logo";
 import Nav from "./Nav/Nav";
-import LanguageSwitcher from "./LanguageSwitcher/LanguageSwitcher";
+
 const Header = () => {
   return (
-    <header>
-      <div className="container">
-        <Logo />
-        <Nav />
-        <LanguageSwitcher />
-      </div>
+    <header className="bg-background-200 sticky top-0 z-200 inset-0">
+      <Nav />
     </header>
   );
 };
